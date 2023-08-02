@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="main-nav"></nav>
+    <nav class="nav"></nav>
 
     <Nav>
       <ul class="topnav">
@@ -11,6 +11,10 @@
     </Nav>
 
     <Header />
+    <Author />
+    <Book />
+    <Buy />
+    <Contact />
     <Footer />
   </div>
 </template>
@@ -18,6 +22,11 @@
 <script>
 import Header from "./components/Header.vue";
 import Nav from "./components/Nav.vue";
+import Author from "./components/Author.vue";
+import Book from "./components/Book.vue";
+import Buy from "./components/Buy.vue";
+import Contact from "./components/Contact.vue";
+
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -25,6 +34,10 @@ export default {
   components: {
     Header,
     Nav,
+    Author,
+    Book,
+    Buy,
+    Contact,
     Footer,
   },
 };
