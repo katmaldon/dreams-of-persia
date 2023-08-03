@@ -24,9 +24,9 @@ body {
     min-width: fit-content;
 }
 
-.container {
-    flex: 1;
-}
+// .container {
+//     flex: 1;
+// }
 
 .parallax-container {
     display: flex;
@@ -54,7 +54,7 @@ body {
     background-position: center;
     background-size: cover;
     color: var(--color);
-    row-gap: 4rem;
+    row-gap: 10rem;
     text-align: center;
 }
 
@@ -102,13 +102,15 @@ a:hover {
 }
 
 .card {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    padding-block: 2rem;
+    min-width: 70%;
+    background-color: white;
 }
 
 .author {
     min-height: 3rem;
     background-color: red;
+    margin-top: 10rem;
 }
 
 .book {
@@ -124,15 +126,7 @@ a:hover {
 .contact {
     min-height: 3rem;
     background-color: rgb(255, 251, 0);
-}
-
-.nav {
-    color: #3bd0f1;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    &__link {
-        color: #000000;
-    }
+    margin-bottom: 10rem;
 }
 
 .hidden {
