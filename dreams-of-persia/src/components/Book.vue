@@ -20,7 +20,7 @@
 export default {
   data() {
     return {
-      title: "ABOUT THE BOOK",
+      title: "THE BOOK",
       //   card_imgURL: url("@/assets/img/Mosque.png"),
     };
   },

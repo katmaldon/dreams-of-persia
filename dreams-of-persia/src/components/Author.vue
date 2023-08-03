@@ -1,7 +1,7 @@
 <template>
   <div class="card author">
     <div class="author__row">
-      <div class="card__img">IMAGE</div>
+      <div class="author__img">IMAGE</div>
       <div class="card__text">
         <div class="card__title">{{ title }}</div>
         <p>
@@ -31,7 +31,7 @@
 export default {
   data() {
     return {
-      title: "ABOUT THE AUTHOR",
+      title: "THE AUTHOR",
       //   card_imgURL: url("@/assets/img/Mosque.png"),
     };
   },
