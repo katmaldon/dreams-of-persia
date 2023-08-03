@@ -1,12 +1,12 @@
 #app {
     @font-face {
-        font-family: "Chivo";
+        font-family: "Alokary";
         font-style: normal;
         font-weight: 400;
         src:
-            local("Chivo"),
-            local("Chivo"),
-            url("@/assets/fonts/Chivo-VariableFont_wght.ttf") format("truetype");
+            local("Alokary"),
+            local("Alokary"),
+            url("@/assets/fonts/Alokary.ttf") format("truetype");
     }
     text-align: center;
     color: #fff;
@@ -23,10 +23,6 @@ body {
     min-height: 50rem;
     min-width: fit-content;
 }
-
-// .container {
-//     flex: 1;
-// }
 
 .parallax-container {
     display: flex;
@@ -73,15 +69,6 @@ a:hover {
     font-weight: bolder;
 }
 
-.footer {
-    color: #e4d19d;
-    background-color: #0b102a;
-    font-size: small;
-    padding: 8px;
-    text-align: center;
-    flex-wrap: wrap;
-}
-
 .header {
     // background-color: #0c1230;
     // background-image: url("@/assets/img/Mosque.png");
@@ -97,9 +84,10 @@ a:hover {
     &__title {
         margin: 4rem;
         color: #fff;
-        font-size: 6rem;
-        font-weight: 900;
-        font-family: "Chivo";
+        font-size: 5rem;
+        font-weight: 700;
+        letter-spacing: 0.3rem;
+        font-family: "Alokary";
         display: inline-block;
     }
 }
@@ -112,6 +100,8 @@ a:hover {
 
     &__title {
         font-size: large;
+        font-family: "Alokary";
+        letter-spacing: 0.2rem;
     }
 
     &__text {
@@ -181,6 +171,15 @@ a:hover {
         min-height: 10rem;
         border-radius: 8px;
     }
+}
+
+.footer {
+    color: #e4d19d;
+    background-color: #0b102a;
+    font-size: small;
+    padding: 8px;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .hidden {
