@@ -8,7 +8,6 @@
       <Author />
       <Book />
       <Buy />
-      <section class="buffer"></section>
       <Contact />
     </section>
     <Footer />

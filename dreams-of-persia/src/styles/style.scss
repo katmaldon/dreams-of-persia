@@ -9,7 +9,7 @@
             url("@/assets/fonts/Chivo-VariableFont_wght.ttf") format("truetype");
     }
     text-align: center;
-    color: #2c3e50;
+    color: #fff;
     background-color: #000312;
 }
 
@@ -104,7 +104,7 @@ a:hover {
 .card {
     width: 70%;
     min-height: 70%;
-    background-color: #e4d19d;
+    // background-color: #e4d19d;
     border-radius: 8px;
 
     &__title {
@@ -117,7 +117,8 @@ a:hover {
 
     &__img {
         min-width: 30%;
-        background-color: #f0f2ff;
+        background-color: #fff;
+        color: #490009;
         border-radius: 8px;
     }
 }
@@ -125,6 +126,7 @@ a:hover {
 .author {
     min-height: 3rem;
     margin-top: 10rem;
+    background-image: linear-gradient(#490009, #690f1b);
 
     &__row {
         display: flex;
@@ -134,15 +136,26 @@ a:hover {
 
 .book {
     min-height: 3rem;
+    background-image: linear-gradient(#690f1b, #881c2d);
+
+    &__gallery {
+        background-color: #fff;
+        color: #490009;
+        line-height: 10rem;
+        min-height: 10rem;
+        margin-bottom: 5rem;
+    }
 }
 
 .buy {
     min-height: 3rem;
+    background-image: linear-gradient(#881c2d, #a72b3e);
 }
 
 .contact {
     min-height: 3rem;
     margin-bottom: 10rem;
+    background-image: linear-gradient(#a72b3e, #ca374d);
 }
 
 .hidden {
