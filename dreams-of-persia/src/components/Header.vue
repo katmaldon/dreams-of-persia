@@ -1,8 +1,6 @@
 <template>
   <header class="header">
-    <div class="header-img">
-      <span class="header-title">DREAMS OF PERSIA HEADER</span>
-    </div>
+    <span class="header__title">DREAMS OF PERSIA</span>
   </header>
 </template>
 

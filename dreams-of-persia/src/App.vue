@@ -1,19 +1,16 @@
 <template>
   <div id="app">
-    <nav class="nav"></nav>
-
-    <Nav>
-      <ul class="topnav">
-        <li><a class="nav__link" href="#home">Home</a></li>
-        <li><a class="nav__link" href="#about">About Us</a></li>
-        <li><a class="nav__link" href="#contact">Contact</a></li>
-      </ul>
-    </Nav>
-
-    <Header />
-    <Author />
-    <Book />
-    <Buy />
+    <!-- <Nav /> -->
+    <section class="parallax-container">
+      <Header />
+    </section>
+    <section class="buffer"></section>
+    <section class="parallax-container-2">
+      <Author />
+      <Book />
+      <Buy />
+    </section>
+    <section class="buffer"></section>
     <Contact />
     <Footer />
   </div>
@@ -26,7 +23,6 @@ import Author from "./components/Author.vue";
 import Book from "./components/Book.vue";
 import Buy from "./components/Buy.vue";
 import Contact from "./components/Contact.vue";
-
 import Footer from "./components/Footer.vue";
 
 export default {
