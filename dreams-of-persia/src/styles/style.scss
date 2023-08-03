@@ -102,30 +102,46 @@ a:hover {
 }
 
 .card {
-    padding-block: 2rem;
-    min-width: 70%;
-    background-color: white;
+    width: 70%;
+    min-height: 70%;
+    background-color: #e4d19d;
+    border-radius: 8px;
+
+    &__title {
+        font-size: large;
+    }
+
+    &__text {
+        padding: 5rem;
+    }
+
+    &__img {
+        min-width: 30%;
+        background-color: #f0f2ff;
+        border-radius: 8px;
+    }
 }
 
 .author {
     min-height: 3rem;
-    background-color: red;
     margin-top: 10rem;
+
+    &__row {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 .book {
     min-height: 3rem;
-    background-color: rgb(255, 0, 217);
 }
 
 .buy {
     min-height: 3rem;
-    background-color: rgb(0, 255, 166);
 }
 
 .contact {
     min-height: 3rem;
-    background-color: rgb(255, 251, 0);
     margin-bottom: 10rem;
 }
 

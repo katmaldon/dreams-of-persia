@@ -1,11 +1,39 @@
 <template>
   <div class="card author">
-    <div class="author-img">
-      <span class="author-title">AUTHOR</span>
+    <div class="author__row">
+      <div class="card__img">IMAGE</div>
+      <div class="card__text">
+        <div class="card__title">{{ title }}</div>
+        <p>
+          Ab Sadeghi-Nejad was born in Mashhad, Iran. He immigrated to the US in
+          1958, attending Beloit College and the University of Chicago Medical
+          School. He completed a post-graduate residency in pediatrics at the
+          University of Chicago, as well as fellowships in pediatric
+          endocrinology at Tufts Medical Center in Boston and the University of
+          California, San Francisco. <br />
+          Ab returned to Tufts in 1970 and retired in 2019 after 50 years of
+          dedicated service. He remains Professor of Pediatrics Emeritus at
+          Tufts, as well as Chief Emeritus of Pediatric Endocrinology at Tufts
+          Children’s Hospital (Boston Floating Hospital). In addition to
+          lecturing extensively, both nationally and internationally, on
+          pediatric endocrinology and medical ethics, he has published numerous
+          articles and book chapters. <br /><br />
+          Ab married Marion M. Marquardt, PhD in 1974. They have two children
+          and three grandchildren. <br /><br />The couple lives in Chestnut
+          Hill, MA.
+        </p>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      title: "ABOUT THE AUTHOR",
+      //   card_imgURL: url("@/assets/img/Mosque.png"),
+    };
+  },
+};
 </script>
