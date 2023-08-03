@@ -1,7 +1,11 @@
 <template>
   <div class="card author">
     <div class="author__row">
-      <div class="author__img">IMAGE</div>
+      <img
+        class="author__img"
+        src="@/assets/img/AbPortrait.png"
+        alt="Portrait Ab Sadeghi-Nejad, MD"
+      />
       <div class="card__text">
         <div class="card__title">{{ title }}</div>
         <p>

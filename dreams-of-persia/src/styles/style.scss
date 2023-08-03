@@ -8,6 +8,17 @@
             local("Alokary"),
             url("@/assets/fonts/Alokary.ttf") format("truetype");
     }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        src:
+            local("Montserrat"),
+            local("Montserrat"),
+            url("@/assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+    }
+
     text-align: center;
     color: #fff;
     background-color: #000312;
@@ -69,6 +80,10 @@ a:hover {
     font-weight: bolder;
 }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
     // background-color: #0c1230;
     // background-image: url("@/assets/img/Mosque.png");
@@ -107,6 +122,7 @@ a:hover {
     &__text {
         padding: 3rem;
         line-height: 1.5;
+        font-family: "Montserrat";
     }
 }
 
@@ -125,6 +141,7 @@ a:hover {
         background-color: #fff;
         color: #490009;
         border-radius: 8px;
+        object-fit: cover;
     }
 }
 
@@ -136,8 +153,13 @@ a:hover {
         background-color: #fff;
         color: #490009;
         line-height: 20rem;
-        min-height: 20rem;
+        min-height: 30rem;
         margin-bottom: 5rem;
+        width: 90vw;
+        position: relative;
+        left: calc(-45vw + 50%);
+        border-radius: 8px;
+        box-shadow: 0px 8px 8px #0b102a;
     }
 }
 
