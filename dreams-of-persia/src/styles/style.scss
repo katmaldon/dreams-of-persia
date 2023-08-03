@@ -35,7 +35,8 @@ body {
     align-items: center;
     justify-content: center;
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(11, 16, 42, 0), rgba(11, 16, 42, 0.9)), url("@/assets/img/Mosque.png");
+    background-image: linear-gradient(rgba(11, 16, 42, 0), rgba(11, 16, 42, 0.3), rgba(11, 16, 42, 0.9)),
+        url("@/assets/img/Mosque.png");
     background-position: center;
     background-size: cover;
     color: var(--color);
@@ -74,6 +75,7 @@ a:hover {
 
 .footer {
     color: #e4d19d;
+    background-color: #0b102a;
     font-size: small;
     padding: 8px;
     text-align: center;
@@ -94,8 +96,9 @@ a:hover {
 
     &__title {
         margin: 4rem;
-        color: #f0f2ff;
+        color: #fff;
         font-size: 6rem;
+        font-weight: 900;
         font-family: "Chivo";
         display: inline-block;
     }
@@ -112,7 +115,8 @@ a:hover {
     }
 
     &__text {
-        padding: 5rem;
+        padding: 3rem;
+        line-height: 1.5;
     }
 }
 
