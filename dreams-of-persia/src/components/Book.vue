@@ -43,7 +43,48 @@
         day.
       </p>
     </div>
-    <div class="book__gallery">gallery</div>
+    <div class="book__gallery">
+      <img
+        class="book__img zoom"
+        src="@/assets/img/BlackRopeEn.png"
+        alt="book gallery image"
+      />
+      <img
+        class="book__img zoom"
+        src="@/assets/img/BlackRopeFarsi.png"
+        alt="book gallery image"
+      />
+      <img
+        class="book__img zoom"
+        src="@/assets/img/BloodMoneyEn.png"
+        alt="book gallery image"
+      />
+      <img
+        class="book__img zoom"
+        src="@/assets/img/BloodMoneyFarsi.png"
+        alt="book gallery image"
+      />
+      <img
+        class="book__img zoom"
+        src="@/assets/img/ZeerehEn.png"
+        alt="book gallery image"
+      />
+      <img
+        class="book__img zoom"
+        src="@/assets/img/ZeerehFarsi.png"
+        alt="book gallery image"
+      />
+      <img
+        class="book__img zoom"
+        src="@/assets/img/MiceEarsEn.png"
+        alt="book gallery image"
+      />
+      <img
+        class="book__img zoom"
+        src="@/assets/img/MiceEarsFarsi.png"
+        alt="book gallery image"
+      />
+    </div>
   </div>
 </template>
 

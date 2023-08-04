@@ -3,7 +3,7 @@
     <div class="author__row">
       <img
         class="author__img"
-        src="@/assets/img/AbPortrait.png"
+        src="@/assets/img/AuthorIMG.jpg"
         alt="Portrait Ab Sadeghi-Nejad, MD"
       />
       <div class="card__text">
@@ -23,8 +23,8 @@
           pediatric endocrinology and medical ethics, he has published numerous
           articles and book chapters. <br /><br />
           Ab married Marion M. Marquardt, PhD in 1974. They have two children
-          and three grandchildren. <br /><br />The couple lives in Chestnut
-          Hill, MA.
+          and three grandchildren. <br /><br />
+          The couple lives in Chestnut Hill, MA.
         </p>
       </div>
     </div>
