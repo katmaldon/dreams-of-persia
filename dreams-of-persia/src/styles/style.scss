@@ -73,7 +73,8 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
+    color: inherit;
 }
 
 a:hover {
@@ -168,6 +169,7 @@ p {
         flex-direction: row;
         overflow-x: scroll;
         column-gap: 0.5rem;
+        overflow-y: hidden;
     }
 
     &__img {
@@ -182,6 +184,7 @@ p {
     .zoom:hover {
         transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
         overflow-y: visible;
+
         // box-shadow: 5pc 5px 5px #fff;
     }
 }
@@ -193,7 +196,10 @@ p {
     &__row {
         display: flex;
         flex-direction: row;
-        padding: 5rem;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem 5rem 5rem 5rem;
+        column-gap: 5rem;
     }
 
     &__column {
@@ -202,11 +208,25 @@ p {
         row-gap: 3rem;
         min-width: 50%;
         padding-top: 3rem;
+        align-items: center;
+
+        &--amazon {
+            width: 100px;
+            height: 50px;
+            outline: #fff;
+            background-image: "/scr/assets/img/BookBabyLogo.svg";
+        }
+
+        &--bookbaby {
+            width: 100px;
+            height: 50px;
+            background-image: "/scr/assets/img/BookBabyLogo.svg";
+        }
     }
 }
 
 .contact {
-    min-height: 3rem;
+    min-height: 1rem;
     margin-bottom: 10rem;
     background-image: linear-gradient(#a72b3e, #ca374d);
 
