@@ -97,6 +97,10 @@ p {
     text-align: center;
     line-height: 85vh;
 
+    @media (max-width: 768px) {
+        line-height: 50vh;
+    }
+
     &__title {
         margin: 4rem;
         color: #fff;
@@ -108,11 +112,71 @@ p {
     }
 }
 
+.enter-text {
+    position: absolute;
+    margin-top: -25vh;
+    width: 100vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Montserrat";
+    letter-spacing: 0.1rem;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .card {
     width: 70%;
     min-height: 70%;
-    // background-color: #e4d19d;
     border-radius: 8px;
+    box-shadow: 0 10px 20px #0b102a;
 
     &__title {
         font-size: large;
@@ -123,7 +187,22 @@ p {
     &__text {
         padding: 3rem;
         line-height: 1.5;
+        font-size: medium;
         font-family: "Montserrat";
+
+        &--contact {
+            padding: 1rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 85%;
+
+        &__text {
+            font-size: x-large;
+        }
     }
 }
 
@@ -141,12 +220,31 @@ p {
         width: 40%;
         background-color: #fff;
         color: #490009;
-        // border-radius: 8px;
+        border-radius: 8px;
         object-fit: cover;
         margin-left: -2rem;
-        margin-top: -2rem;
+        margin-top: -1rem;
         margin-bottom: 2rem;
-        box-shadow: 8px 8px 8px #0b102a;
+        box-shadow: 8px 8px 16px #0b102a;
+    }
+}
+
+@media (max-width: 768px) {
+    .author {
+        &__row {
+            flex-direction: column-reverse;
+            font-size: medium;
+        }
+
+        &__img {
+            width: 90%;
+            border-radius: 8px;
+            object-fit: cover;
+            margin-left: 5%;
+            margin-top: 3rem;
+            justify-content: center;
+            box-shadow: 0px 8px 16px #0b102a;
+        }
     }
 }
 
@@ -172,6 +270,13 @@ p {
         overflow-y: hidden;
     }
 
+    @media (max-width: 768px) {
+        flex-direction: column;
+        left: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
     &__img {
         height: 20rem;
         overflow: visible;
@@ -193,11 +298,17 @@ p {
     min-height: 3rem;
     background-image: linear-gradient(#881c2d, #a72b3e);
 
+    &__cover {
+        margin-top: 1rem;
+    }
+
+    &__img {
+        height: 20rem;
+    }
     &__row {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
         padding: 0rem 5rem 5rem 5rem;
         column-gap: 5rem;
     }
@@ -209,18 +320,37 @@ p {
         min-width: 50%;
         padding-top: 3rem;
         align-items: center;
+    }
 
-        &--amazon {
-            width: 100px;
-            height: 50px;
-            outline: #fff;
-            background-image: "/scr/assets/img/BookBabyLogo.svg";
+    &__btn {
+        width: 120px;
+        height: 40px;
+        background-color: #b69647;
+        color: white;
+        border-style: none;
+        border-radius: 5px;
+        box-shadow: 3px 3px 6px;
+    }
+
+    &__btn:hover {
+        background-color: white;
+        color: #b69647;
+        transform: scale(1.1);
+    }
+
+    @media (max-width: 768px) {
+        &__row {
+            flex-direction: column; /* Stack buttons on mobile */
+            text-align: center; /* Center align buttons */
         }
-
-        &--bookbaby {
-            width: 100px;
-            height: 50px;
-            background-image: "/scr/assets/img/BookBabyLogo.svg";
+        &__column {
+            min-width: auto; /* Allow columns to take full width */
+        }
+        &__btn {
+            width: 50%;
+            height: auto;
+            margin: 1rem;
+            padding: 1rem;
         }
     }
 }
@@ -258,5 +388,3 @@ button {
 button:focus {
     outline: 0;
 }
-
-// colors: 18423a

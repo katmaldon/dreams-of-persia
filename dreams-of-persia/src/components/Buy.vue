@@ -2,70 +2,60 @@
   <div class="card buy">
     <div class="card__text">
       <div class="card__title">{{ title }}</div>
+      <div class="buy__cover">
+        <img
+          class="buy__img"
+          src="@/assets/img/samplebook2.png"
+          alt="Stack of books"
+        />
+      </div>
       <p>You can find our book at many great retailers:</p>
     </div>
     <div class="buy__row">
-      <div class="buy__column--amazon">
-        <a
-          href="https://store.bookbaby.com/book/dreams-of-persia"
-          target="blank"
-          ><img src="/src/assets/img/BookBabyLogo.svg"
-        /></a>
-      </div>
       <div class="buy__column--bookbaby">
         <a
           href="https://store.bookbaby.com/book/dreams-of-persia"
           target="blank"
-          ><img src="/src/assets/img/BookBabyLogo.svg"
-        /></a>
+        >
+          <button class="buy__btn">BOOKBABY</button>
+        </a>
+      </div>
+
+      <div class="buy__column--bookshop">
+        <a
+          href="https://bookshop.org/p/books/dreams-of-persia-a-collection-of-timeless-persian-sayings-and-proverbs-ab-sadeghi-nejad-md/20165448"
+          target="blank"
+        >
+          <button class="buy__btn">BOOKSHOP</button>
+        </a>
+      </div>
+      <div class="buy__column--amazon">
+        <a
+          href="https://store.https://www.amazon.com/Dreams-Persia-Collection-Timeless-Proverbs/dp/1667878034/ref=sr_1_1?crid=1Q9UEPYDK2JN3&keywords=dreams+of+persia&qid=1697042984&sprefix=dreams+of+persia%2Caps%2C444&sr=8-1&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc.com/book/dreams-of-persia"
+          target="blank"
+        >
+          <button class="buy__btn">AMAZON</button>
+        </a>
+      </div>
+      <div class="buy__column--amazon">
+        <a
+          href="https://www.thriftbooks.com/w/dreams-of-persia-a-collection-of-timeless-persian-sayings-and-proverbs_ab-sadeghi-nejad-md/38892039/#edition=66803258"
+          target="blank"
+        >
+          <button class="buy__btn">THIFTBOOKS</button>
+        </a>
       </div>
     </div>
   </div>
 </template>
+
 
 <script>
 export default {
   data() {
     return {
       title: "WHERE TO BUY",
-      //   card_imgURL: url("@/assets/img/Mosque.png"),
     };
   },
 };
 </script>
-
-.buy {
-    min-height: 3rem;
-    background-image: linear-gradient(#881c2d, #a72b3e);
-
-    &__row {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 0rem 5rem 5rem 5rem;
-        column-gap: 5rem;
-    }
-
-    &__column {
-        display: flex;
-        flex-direction: column;
-        row-gap: 3rem;
-        min-width: 50%;
-        padding-top: 3rem;
-        align-items: center;
-
-        &--amazon {
-            width: 100px;
-            height: 50px;
-            outline: #fff;
-            background-image: "/scr/assets/img/BookBabyLogo.svg";
-        }
-
-        &--bookbaby {
-            width: 100px;
-            height: 50px;
-            background-image: "/scr/assets/img/BookBabyLogo.svg";
-        }
-    }
-}

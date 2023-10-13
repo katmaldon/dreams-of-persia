@@ -1,9 +1,9 @@
 <template>
   <div class="card contact">
-    <div class="card__text">
+    <div class="card__text--contact">
       <p>
-        For all media inquiries, please
-        <a href="mailto:someone@example.com">email us</a> to get in touch.
+        For all media inquiries, please reach out via
+        <a href="mailto:hello@dreamsofpersia.com">email</a>.
       </p>
     </div>
   </div>
