@@ -22,7 +22,7 @@
           order.<br />
         </p>
         <p>
-          In addition, you can find our book at many great online retailers as
+          In addition, you can find our book at many great online retailers, as
           well as select local stores.
         </p>
       </div>

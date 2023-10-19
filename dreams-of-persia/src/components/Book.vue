@@ -93,7 +93,6 @@ export default {
   data() {
     return {
       title: "THE BOOK",
-      //   card_imgURL: url("@/assets/img/Mosque.png"),
     };
   },
 };

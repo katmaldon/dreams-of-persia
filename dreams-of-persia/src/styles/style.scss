@@ -86,8 +86,6 @@ p {
 }
 
 .header {
-    // background-color: #0c1230;
-    // background-image: url("@/assets/img/Mosque.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -207,6 +205,12 @@ p {
     }
 }
 
+@media only screen and (max-width: 1180px) and (min-width: 768px) {
+    .card {
+        width: 85%;
+    }
+}
+
 .author {
     min-height: 3rem;
     margin-top: 10rem;
@@ -274,8 +278,8 @@ p {
     @media (max-width: 768px) {
         flex-direction: column;
         left: 0;
-        overflow-y: scroll;
-        overflow-x: hidden;
+        overflow-y: hidden;
+        overflow-x: scroll;
     }
 
     &__img {
@@ -288,10 +292,8 @@ p {
     }
 
     .zoom:hover {
-        transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        transform: scale(1.8); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
         overflow-y: visible;
-
-        // box-shadow: 5pc 5px 5px #fff;
     }
 }
 
