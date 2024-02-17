@@ -19,7 +19,7 @@
             >BookBaby</a
           >, offering the most consistent availability of books as well as rapid
           shipping. <br /><br />Use code PERSEPOLIS to receive 25% off your
-          order.<br />
+          entire order.<br />
         </p>
         <p>
           In addition, you can find our book at many great online retailers, as
@@ -56,11 +56,6 @@
             <button class="buy__btn">HARVARD BOOKS</button>
           </a>
         </div>
-        <!-- <div class="buy__column--harvard">
-          <button class="buy__btn">HARVARD BOOKS</button>
-          <a href="https://shop.harvard.com/book/9781667878034" target="_blank">
-          </a>
-        </div> -->
       </div>
     </div>
   </div>
