@@ -15,7 +15,7 @@
           "Dreams of Persia" directly from the website of our publisher,
           <a
             href="https://store.bookbaby.com/book/dreams-of-persia"
-            target="blank"
+            target="_blank"
             >BookBaby</a
           >, offering the most consistent availability of books as well as rapid
           shipping. <br /><br />Use code PERSEPOLIS to receive 25% off your
@@ -30,7 +30,7 @@
         <div class="buy__column--bookbaby">
           <a
             href="https://store.bookbaby.com/book/dreams-of-persia"
-            target="blank"
+            target="_blank"
           >
             <button class="buy__btn">BOOKBABY</button>
           </a>
@@ -38,27 +38,29 @@
         <div class="buy__column--bookshop">
           <a
             href="https://bookshop.org/p/books/dreams-of-persia-a-collection-of-timeless-persian-sayings-and-proverbs-ab-sadeghi-nejad-md/20165448"
-            target="blank"
+            target="_blank"
           >
             <button class="buy__btn">BOOKSHOP</button>
           </a>
         </div>
         <div class="buy__column--amazon">
           <a
-            href="https://store.https://www.amazon.com/Dreams-Persia-Collection-Timeless-Proverbs/dp/1667878034/ref=sr_1_1?crid=1Q9UEPYDK2JN3&keywords=dreams+of+persia&qid=1697042984&sprefix=dreams+of+persia%2Caps%2C444&sr=8-1&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc.com/book/dreams-of-persia"
-            target="blank"
+            href="https://www.amazon.com/Dreams-Persia-Collection-Timeless-Proverbs/dp/1667878034"
+            target="_blank"
           >
             <button class="buy__btn">AMAZON</button>
           </a>
         </div>
         <div class="buy__column--amazon">
-          <a
-            href="https://www.thriftbooks.com/w/dreams-of-persia-a-collection-of-timeless-persian-sayings-and-proverbs_ab-sadeghi-nejad-md/38892039/#edition=66803258"
-            target="blank"
-          >
-            <button class="buy__btn">THIFTBOOKS</button>
+          <a href="https://shop.harvard.com/book/9781667878034" target="_blank">
+            <button class="buy__btn">HARVARD BOOKS</button>
           </a>
         </div>
+        <!-- <div class="buy__column--harvard">
+          <button class="buy__btn">HARVARD BOOKS</button>
+          <a href="https://shop.harvard.com/book/9781667878034" target="_blank">
+          </a>
+        </div> -->
       </div>
     </div>
   </div>
