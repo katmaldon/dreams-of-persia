@@ -64,7 +64,7 @@ body {
     color: var(--color);
     row-gap: 10rem;
     text-align: center;
-    @media (max-width: 768px) {
+    @media (max-width: 932px) {
         row-gap: 5rem;
     }
 }
@@ -73,7 +73,7 @@ body {
     width: 100%;
     min-height: 50vh;
     background-color: #0b102a;
-    @media (max-width: 768px) {
+    @media (max-width: 932px) {
         min-height: 30vh;
     }
 }
@@ -101,7 +101,7 @@ p {
     text-align: center;
     line-height: 85vh;
 
-    @media (max-width: 768px) {
+    @media (max-width: 932px) {
         line-height: 50vh;
     }
 
@@ -200,7 +200,7 @@ p {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 932px) {
     .card {
         width: 90%;
 
@@ -211,7 +211,7 @@ p {
     }
 }
 
-@media only screen and (max-width: 1180px) and (min-width: 768px) {
+@media only screen and (max-width: 1180px) and (min-width: 932px) {
     .card {
         width: 85%;
     }
@@ -240,7 +240,7 @@ p {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 932px) {
     .author {
         &__row {
             flex-direction: column-reverse;
@@ -279,9 +279,13 @@ p {
         overflow-x: scroll;
         column-gap: 0.5rem;
         overflow-y: hidden;
+        @media (max-width: 932px) {
+            width: 140vw !important;
+            position: static !important;
+        }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 932px) {
         flex-direction: column;
         left: 0;
         overflow-y: hidden;
@@ -356,7 +360,7 @@ p {
         transform: scale(1.1);
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 932px) {
         &__row {
             flex-direction: column; /* Stack buttons on mobile */
             text-align: center; /* Center align buttons */
