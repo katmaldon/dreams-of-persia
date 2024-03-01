@@ -352,6 +352,10 @@ p {
         border-style: none;
         border-radius: 5px;
         box-shadow: 3px 3px 6px #322e1d;
+        @media (max-width: 932px) {
+            font-size: medium;
+            font-weight: bolder;
+        }
     }
 
     &__btn:hover {
@@ -369,7 +373,7 @@ p {
             min-width: auto; /* Allow columns to take full width */
         }
         &__btn {
-            width: 50%;
+            width: 100%;
             height: auto;
             margin: 1rem;
             padding: 1rem;
