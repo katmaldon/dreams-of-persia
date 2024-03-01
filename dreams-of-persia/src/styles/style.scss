@@ -27,12 +27,11 @@
 body {
     display: flex;
     margin: 0;
-    // min-height: 100vh;
     flex-direction: column;
     background-repeat: repeat-y;
     background-size: cover;
-    // min-height: 50rem;
     min-width: fit-content;
+    text-size-adjust: 100%;
 }
 
 .parallax-container {
@@ -41,14 +40,26 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     background-image: linear-gradient(rgba(11, 16, 42, 0), rgba(11, 16, 42, 0.3), rgba(11, 16, 42, 0.9)),
         url("@/assets/img/Mosque.png");
-    background-position: center;
-    background-size: cover;
+    background-position: center !important ;
+    background-size: cover !important;
     color: var(--color);
     row-gap: 4rem;
     text-align: center;
+
+    /* Add this media query to handle smaller screens */
+    @media (max-width: 1020px) {
+        background-position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        min-height: initial;
+        background-attachment: scroll; /* Remove fixed background attachment */
+        background-position: center; /* Reset background position */
+        background-size: cover; /* Reset background size */
+    }
 }
 
 .parallax-container-2 {
@@ -64,7 +75,7 @@ body {
     color: var(--color);
     row-gap: 10rem;
     text-align: center;
-    @media (max-width: 932px) {
+    @media (max-width: 1020px) {
         row-gap: 5rem;
     }
 }
@@ -73,7 +84,7 @@ body {
     width: 100%;
     min-height: 50vh;
     background-color: #0b102a;
-    @media (max-width: 932px) {
+    @media (max-width: 1020px) {
         min-height: 30vh;
     }
 }
@@ -95,13 +106,13 @@ p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: auto;
+    // min-width: auto;
     min-height: 100vh;
     display: block;
     text-align: center;
     line-height: 85vh;
 
-    @media (max-width: 932px) {
+    @media (max-width: 1020px) {
         line-height: 50vh;
     }
 
@@ -200,7 +211,7 @@ p {
     }
 }
 
-@media (max-width: 932px) {
+@media (max-width: 1020px) {
     .card {
         width: 90%;
 
@@ -240,7 +251,7 @@ p {
     }
 }
 
-@media (max-width: 932px) {
+@media (max-width: 1020px) {
     .author {
         &__row {
             flex-direction: column-reverse;
@@ -279,13 +290,13 @@ p {
         overflow-x: scroll;
         column-gap: 0.5rem;
         overflow-y: hidden;
-        @media (max-width: 932px) {
+        @media (max-width: 1020px) {
             width: 140vw !important;
             position: static !important;
         }
     }
 
-    @media (max-width: 932px) {
+    @media (max-width: 1020px) {
         flex-direction: column;
         left: 0;
         overflow-y: hidden;
@@ -339,7 +350,7 @@ p {
         display: flex;
         flex-direction: column;
         row-gap: 3rem;
-        min-width: 50%;
+        // min-width: 50%;
         padding-top: 3rem;
         align-items: center;
     }
@@ -352,7 +363,7 @@ p {
         border-style: none;
         border-radius: 5px;
         box-shadow: 3px 3px 6px #322e1d;
-        @media (max-width: 932px) {
+        @media (max-width: 1020px) {
             font-size: medium;
             font-weight: bolder;
         }
@@ -366,11 +377,11 @@ p {
 
     @media (max-width: 932px) {
         &__row {
-            flex-direction: column; /* Stack buttons on mobile */
-            text-align: center; /* Center align buttons */
+            flex-direction: column;
+            text-align: center;
         }
         &__column {
-            min-width: auto; /* Allow columns to take full width */
+            min-width: auto;
         }
         &__btn {
             width: 75%;
