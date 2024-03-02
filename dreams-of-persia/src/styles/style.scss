@@ -35,6 +35,8 @@ body {
 }
 
 .parallax-container {
+    background-color: linear-gradient(rgb(11, 15, 40), rgb(14, 31, 81), rgb(16, 47, 125), rgb(21, 62, 172));
+    // background-position: fixed;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -50,9 +52,9 @@ body {
     text-align: center;
 
     @media (max-width: 1020px) {
-        // background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("@/assets/img/Collage.png");
+        background-image: linear-gradient(rgb(21, 62, 172), rgb(11, 15, 42));
         // background-position: fixed;
-        background-image: none;
+        // background-image: none;
         background-attachment: scroll;
         background-position: center;
         background-size: contain;
