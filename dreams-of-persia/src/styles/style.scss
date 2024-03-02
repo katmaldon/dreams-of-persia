@@ -56,16 +56,16 @@ body {
     row-gap: 4rem;
     text-align: center;
 
-    @media (max-width: 1170px) {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("@/assets/img/Mosque-mobile.png");
-        background-attachment: initial;
-        background-position: fixed;
-        background-size: cover;
-        background-repeat: repeat-y;
+    @media (max-width: 1020px) {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("@/assets/img/Collage.png");
+        // background-position: fixed;
+        background-attachment: scroll;
+        background-position: center;
+        background-size: contain;
         top: 0;
         width: 100%;
-        max-width: 100%;
-        height: auto;
+        height: 100%;
+        min-height: initial;
     }
 }
 
