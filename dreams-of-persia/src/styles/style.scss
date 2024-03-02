@@ -50,6 +50,7 @@ body {
     text-align: center;
 
     @media (max-width: 1020px) {
+        // display: none;
         background-position: fixed;
         top: 0;
         width: 100%;
@@ -85,7 +86,7 @@ body {
     background-color: #0b102a;
     @media (max-width: 1020px) {
         min-height: 30vh;
-        display: none;
+        // display: none;
     }
 }
 
@@ -113,8 +114,8 @@ p {
     line-height: 85vh;
 
     @media (max-width: 1020px) {
-        // line-height: 50vh;
-        display: none;
+        line-height: 50vh;
+        // display: none;
     }
 
     &__title {
@@ -295,8 +296,8 @@ p {
         column-gap: 0.5rem;
         overflow-y: hidden;
         @media (max-width: 1020px) {
-            width: 140vw !important;
-            position: static !important;
+            // width: 140vw !important;
+            // position: static !important;
         }
     }
 
