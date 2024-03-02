@@ -281,7 +281,7 @@ p {
         line-height: 20rem;
         height: 20rem;
         margin-bottom: 5rem;
-        width: 140vw !important;
+        width: 90vw;
         position: relative;
         left: calc(-45vw + 50%);
         border-radius: 8px;
@@ -292,8 +292,8 @@ p {
         column-gap: 0.5rem;
         overflow-y: hidden;
         @media (max-width: 1020px) {
-            // width: 140vw !important;
-            // position: static !important;
+            width: 140vw !important;
+            position: static !important;
         }
     }
 
