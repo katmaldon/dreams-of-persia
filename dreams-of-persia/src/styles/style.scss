@@ -50,7 +50,6 @@ body {
     text-align: center;
 
     @media (max-width: 1020px) {
-        // display: none;
         background-position: fixed;
         top: 0;
         width: 100%;
@@ -86,7 +85,6 @@ body {
     background-color: #0b102a;
     @media (max-width: 1020px) {
         min-height: 30vh;
-        // display: none;
     }
 }
 
@@ -107,7 +105,6 @@ p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    // min-width: auto;
     min-height: 100vh;
     display: block;
     text-align: center;
@@ -115,7 +112,6 @@ p {
 
     @media (max-width: 1020px) {
         line-height: 50vh;
-        // display: none;
     }
 
     &__title {
@@ -285,7 +281,7 @@ p {
         line-height: 20rem;
         height: 20rem;
         margin-bottom: 5rem;
-        width: 90vw;
+        width: 140vw !important;
         position: relative;
         left: calc(-45vw + 50%);
         border-radius: 8px;
