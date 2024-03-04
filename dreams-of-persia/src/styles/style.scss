@@ -21,7 +21,7 @@
 
     text-align: center;
     color: #fff;
-    background-color: #000312;
+    background-color: #0b0f2a;
 }
 
 body {
@@ -35,8 +35,9 @@ body {
 }
 
 .parallax-container {
-    background-color: linear-gradient(rgb(11, 15, 40), rgb(14, 31, 81), rgb(16, 47, 125), rgb(21, 62, 172));
+    // background-color: linear-gradient(rgb(11, 15, 40), rgb(14, 31, 81), rgb(16, 47, 125), rgb(21, 62, 172));
     // background-position: fixed;
+    background: radial-gradient(circle, rgba(46, 55, 199, 1) 20%, rgba(11, 15, 42, 1) 100%);
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -51,8 +52,10 @@ body {
     row-gap: 4rem;
     text-align: center;
 
-    @media (max-width: 1200px) {
-        background-color: #0b102a;
+    @media (max-width: 1020px) {
+        // background-color: #0b102a;
+        // background: rgb(11, 15, 42);
+        background: radial-gradient(circle, rgba(46, 55, 199, 1) 20%, rgba(11, 15, 42, 1) 100%);
         background-image: none;
         // background-position: fixed;
         // background-attachment: scroll;
