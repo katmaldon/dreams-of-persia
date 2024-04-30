@@ -21,7 +21,12 @@
           Children’s Hospital (Boston Floating Hospital). In addition to
           lecturing extensively, both nationally and internationally, on
           pediatric endocrinology and medical ethics, he has published numerous
-          articles and book chapters. <br /><br />
+          articles and book chapters, which can be found on his
+          <a
+            href="https://en.wikipedia.org/wiki/Ab_Sadeghi-Nejad"
+            target="_blank"
+            >Wikipedia page</a
+          >.<br /><br />
           Ab married Marion M. Marquardt, PhD in 1974. They have two children
           and four grandchildren. <br /><br />
           The couple lives in Chestnut Hill, MA.
